@@ -1,3 +1,16 @@
+Prerequisites:
+1. Ensure Docker is installed and running.
+2. Start Elasticsearch using Docker Compose:
+
+docker compose up -d
+
+Run the Application:
+a. Start the employee-search-service:
+./gradlew clean bootRun
+
+b. Test the API
+http://localhost:8080/api/employees
+
 API Endpoints
 
   ┌────────┬────────────────────────────────────┬───────────────────────┐
